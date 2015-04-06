@@ -9,7 +9,7 @@
  * Plugin Name:       Plugins Speed Test
  * Plugin URI:        http://blog.wpspeedster.com/plugins-speed-test-plugin/
  * Description:       This plugin shows resource impact of specific plugins on your blog.
- * Version:           1.0
+ * Version:           1.1
  * Author:            Csaba Kissi
  * Author URI:        http://www.wpspeedster.com
  * License:           GPL-2.0+
@@ -51,10 +51,10 @@ function wp_pst_render_plugins_column( $column_name, $plugin_file, $plugin_data 
         ?>
         <div class="plugin-description">
             <table class="wp_pst">
-                <tr><td title="Speed Impact on Blogs' Home Page">Home Page Impact:</td><td  style="margin:0"><span id="hp_<? echo $plugin_data['slug']?>">-</span></td></tr>
-                <tr><td title="Speed Impact on Blogs' Post Page">Post Page Impact:</td><td><span id="pp_<? echo $plugin_data['slug']?>">-</span></td></tr>
-                <tr><td title="Size of the resources added (in kB)">Resources added:</td><td><span id="rs_<? echo $plugin_data['slug']?>">-</span></td></tr>
-                <tr><td title="Number of Database tables created">DB tables:</td><td><span id="db_<? echo $plugin_data['slug']?>">-</span></td></tr>
+                <tr><td title="Speed Impact on Blogs' Home Page">Home Page Impact:</td><td  style="margin:0"><span id="hp_<?php echo $plugin_data['slug']?>">-</span></td></tr>
+                <tr><td title="Speed Impact on Blogs' Post Page">Post Page Impact:</td><td><span id="pp_<?php echo $plugin_data['slug']?>">-</span></td></tr>
+                <tr><td title="Size of the resources added (in kB)">Resources added:</td><td><span id="rs_<?php echo $plugin_data['slug']?>">-</span></td></tr>
+                <tr><td title="Number of Database tables created">DB tables:</td><td><span id="db_<?php echo $plugin_data['slug']?>">-</span></td></tr>
             </table>
             <div class="row-actions visible"><span class="activate"><a href="http://www.wpspeedster.com/plugin/speedtest/<?php echo $plugin_data['slug'] ?>" title="More Speed Test Details" class="edit">More Details</a></span></div>
         </div>
