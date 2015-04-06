@@ -9,7 +9,7 @@
  * Plugin Name:       Plugins Speed Test
  * Plugin URI:        http://blog.wpspeedster.com/plugins-speed-test-plugin/
  * Description:       This plugin shows resource impact of specific plugins on your blog.
- * Version:           1.1
+ * Version:           1.0
  * Author:            Csaba Kissi
  * Author URI:        http://www.wpspeedster.com
  * License:           GPL-2.0+
